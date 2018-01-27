@@ -4,9 +4,9 @@ home:
   alias: '/home'
 
 pages:
-  theme: antimatter
+  theme: ulmus-gravstrap
   markdown:
-    extra: false
+    extra: true
   process:
     markdown: true
     twig: false
@@ -25,7 +25,7 @@ twig:
   autoescape: false
 
 assets:
-  css_pipeline: false
+  css_pipeline: true
   css_minify: true
   css_rewrite: true
   js_pipeline: false
